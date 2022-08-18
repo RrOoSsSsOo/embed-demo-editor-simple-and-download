@@ -4,7 +4,7 @@
   "description": "Flat Embed editor simple demo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlatIO/embed-demo-editor-simple.git"
+    "url": "git+https://github.com/RrOoSsSsOo/embed-demo-editor-simple-and-download.git"
   },
   "keywords": [
     "music",
@@ -16,7 +16,11 @@
   "author": "Vicent Giersch <devrel@flat.io>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/FlatIO/embed-demo-editor-simple/issues"
+    "url": "https://github.com/RrOoSsSsOo/embed-demo-editor-simple-and-download/issues"
   },
-  "homepage": "https://github.com/FlatIO/embed-demo-editor-simple#readme"
+  "homepage": "https://github.com/RrOoSsSsOo/embed-demo-editor-simple-and-download#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
 }

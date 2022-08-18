@@ -1,13 +1,14 @@
 // Create embed in the `embed-example` div. By default the embed will fit its container
 var container = document.getElementById("embed-example");
 
+var scoreId = container.getAttribute('scoreId');
+
 var embed = new Flat.Embed(container, {
   // The score hosted on Flat we use here as template.
   // You can also use `embed.loadMusicXML(score)` to load your MsuicXML on the fly:
   // https://flat.io/developers/docs/embed/javascript.html#loadmusicxmlscore-mixed-promisevoid-error
-  score: "56ae21579a127715a02901a6",
+  score: scoreId,
   // The embed configuration parameters
-  height: "500px",
   embedParams: {
     mode: "edit",
     appId: "59e7684b476cba39490801c2",
